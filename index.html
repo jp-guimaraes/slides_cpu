@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.68.3" />
+    <meta charset="utf-8">
+<title>Processadores</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/slides_cpu/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/slides_cpu/reveal-js/css/reveal.css"><link rel="stylesheet" href="/slides_cpu/robot-lung.css" id="theme"><link rel="stylesheet" href="/slides_cpu/highlight-js/color-brewer.min.css">
+    
+  </head>
+  <body>
+    
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="processadores">Processadores</h1>
+<p>Organização e Manutenção de Computadores</p>
+<p><a href="https://jp-guimaraes.github.io/">🌐 João Paulo Guimarães</a></p>
+</section>
+
+  
+
+    <section>
+
+<section data-shortcode-section>
+<h1 id="objetivos">Objetivos</h1>
+<p>Conhecer os diferentes tipos de processadores existentes no mercado</p>
+<p>Entender as diferenças de especificações entre processadores</p>
+</section><section>
+<h1 id="sumário">Sumário</h1>
+<ol>
+<li>Arquiteturas</li>
+<li>Características</li>
+<li>Benchmarks</li>
+</ol>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="arquiteturas">Arquiteturas</h1>
+<p>RISC
+ARM
+- Apple M1, Exynos, Snapdragon</p>
+<p>CISC
+x86
+Pentium II, Pentium III
+x64
+Athlon 64, AMD Ryzen, i5 11600K</p>
+</section><section>
+<h1 id="lei-de-moore">Lei de Moore</h1>
+<p><a href="https://www.cs.utexas.edu/~fussell/courses/cs352h/papers/moore.pdf">Cramming  More  Components  ontoIntegrated  Circuits</a></p>
+<p>Número de transistores dobrando a cada 2 anos</p>
+<p><a href="https://tecnoblog.net/277370/o-que-diz-a-lei-de-moore/">Leitura complementar</a></p>
+</section><section>
+<p><img src="https://tecnoblog.net/wp-content/uploads/2019/02/Moores_Law_Transistor_Count_1971-2016-700x511.png" alt=""></p>
+</section><section>
+<h1 id="nanometros">nanometros</h1>
+<p><strong>bilionésimo de 1 metro</strong></p>
+<p>Referência -&gt; Folha de papel tem uma espessura de <strong>100</strong> nanômetros</p>
+<p>Décima primeira geração dos processadores intel -&gt; 10nm</p>
+</section><section>
+<h1 id="o-que-significa-isso">O que significa isso?</h1>
+</section><section>
+<p>Distância entre os terminais do transistor é de 10nm</p>
+<p>Distâncias menores -&gt; velocidades maiores (menor distância a ser percorrida)
+Distâncias menores -&gt; menor resistência (menor calor dissipado)</p>
+<p><img src="https://s2.glbimg.com/pV2KOF-d8a9sqc9pGhZN3EV7R98=/695x0/s.glbimg.com/po/tt2/f/original/2016/10/11/planar-trigate.png" alt=""></p>
+<p><a href="https://www.techtudo.com.br/noticias/noticia/2016/10/o-que-sao-nanometros-e-por-que-eles-sao-tao-importantes-na-tecnologia.html">Leitura Complementar</a></p>
+</section><section>
+<h1 id="o-quanto-eu-posso-encolher">O quanto eu posso encolher?</h1>
+<p>Mais transitores por área -&gt; maior calor gerado, menos espaço de dissipação</p>
+<p><a href="https://www.youtube.com/watch?v=xL40UN5p6IY&amp;ab_channel=TechforTechs">Vídeo famoso 1</a></p>
+<p><a href="https://www.youtube.com/watch?v=BSGcnRanYMM">Vídeo famoso 2</a></p>
+<p>-&gt; Pentium 4 de 4GHZ cancelado</p>
+</section><section>
+<h1 id="processod-e-fabricação-de-processadores">Processod e fabricação de processadores</h1>
+<p><a href="https://www.youtube.com/watch?v=2W6kCXwSZnk&amp;ab_channel=KaikeIaralian">Vídeo complementar 1</a></p>
+<p><a href="https://www.youtube.com/watch?v=AuUOrrW8YOU&amp;ab_channel=Adrenaline">Vídeo complementar 2</a></p>
+</section><section>
+<h1 id="solução-dos-fabricantes">Solução dos fabricantes</h1>
+<p>Abordagem Multicore</p>
+<p><img src="https://csdl-images.computer.org/mags/co/2005/05/figures/r50111.gif" alt=""></p>
+<p><a href="https://www.computer.org/csdl/magazine/co/2005/05/r5011/13rRUwhpBQV">Leitura complementar de 2005</a></p>
+</section><section>
+<h1 id="bastidores">Bastidores</h1>
+<p>Dificuldade da Intel de lidar com a fabricação de 10nm</p>
+<p>Arquitetura Zen 3 da AMD -&gt; 7nm</p>
+<p><a href="https://www.youtube.com/watch?v=iZBIeM2zE-I&amp;ab_channel=LinusTechTips">Video complementar</a></p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="características">Características</h1>
+</section><section>
+<p>Arquitetura (Cisc, RISC, 32 64bits&hellip;)</p>
+<p>Litografia (tamanho em nm)</p>
+<p>Fabricante</p>
+<p>Socket (Soquete)</p>
+<p>Geração</p>
+<p>Número de núcleos</p>
+<p>Número de Threads por núcleo</p>
+<p>Potência (W)</p>
+<p>Clock (frequência de trabalho HZ)</p>
+</section><section>
+<h1 id="core">Core</h1>
+<p>Núcleo físico</p>
+<p>Abordagem multicore: Dual-core, Quad-core, Hexa-core, Octa-core, Deca-core</p>
+<p>Complexidade -&gt; Camadas mais altas</p>
+</section><section>
+<h1 id="exemplo">Exemplo</h1>
+<p>Threadripper: Processador da AMD com 32 núcleos</p>
+<p>Vários núcleos inativos em jogos</p>
+</section><section>
+<h1 id="mercado">Mercado</h1>
+<p>Mais fácil projetar/fabricar/vender processador com mais núcleos e frequência de trabalho menor do que menos núcleos com frequência de trabalho maior</p>
+<p>Por quê?</p>
+</section><section>
+<p>Consumo de energia</p>
+<p>Temperatura</p>
+</section><section>
+<h1 id="threads">Threads</h1>
+<p>Hyper threading (intel)</p>
+<p>Simultaneous Multithreading (amd)</p>
+<p>Núcleo virtual dentro de núcleo físico</p>
+<p>(núcleo lógico ou virtual)</p>
+<p>Execução de multiplas instruções (2) por ciclo de clock</p>
+<p>Visão do sistema operacional -&gt; Mais cores</p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="socket">Socket</h1>
+<p>O que é?</p>
+</section><section>
+<h1 id="intel">intel</h1>
+<p><img src="https://assets.hardwarezone.com/img/2011/12/LGA1366.jpg" alt=""></p>
+</section><section>
+<h1 id="amd">amd</h1>
+<p><img src="https://images.hothardware.com/contentimages/newsitem/51363/content/Socket_AM4.jpg" alt=""></p>
+<p><a href="https://en.wikipedia.org/wiki/CPU_socket">Leitura complementar</a></p>
+</section><section>
+<h1 id="cuidados">Cuidados</h1>
+<p>Processadores amd -&gt; Mesmo soquete para várias gerações -&gt; Quase sempre OK</p>
+<p>Processadores intel -&gt; Mesmo soquete para várias gerações -&gt; NOT OK
+(incompatibilidades dependendo da geração)</p>
+<p>Checar manual da placa-mãe</p>
+
+</section>
+</section>
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/slides_cpu/reveal-hugo/object-assign.js></script>
+
+<a href="/slides_cpu/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">null</script>
+<script type="application/json" id="reveal-hugo-page-params">{"custom_theme":"robot-lung.css","highlight_theme":"color-brewer","margin":0.2,"transition":"slide","transition_speed":"fast"}</script>
+
+<script src="/slides_cpu/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/slides_cpu/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/slides_cpu/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/slides_cpu/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/slides_cpu/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/slides_cpu/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    
+    
+  </body>
+</html>

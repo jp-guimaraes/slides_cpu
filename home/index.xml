@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Processadores</title>
+    <link>https://jp-guimaraes.github.io/slides_cpu/home/</link>
+    <description>Recent content in Homes on Processadores</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://jp-guimaraes.github.io/slides_cpu/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_cpu/home/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_cpu/home/intro/</guid>
+      <description> Objetivos Conhecer os diferentes tipos de processadores existentes no mercado
+Entender as diferenças de especificações entre processadores
+ Sumário  Arquiteturas Características Benchmarks   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_cpu/home/arquiteturas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_cpu/home/arquiteturas/</guid>
+      <description>Arquiteturas RISC ARM - Apple M1, Exynos, Snapdragon
+CISC x86 Pentium II, Pentium III x64 Athlon 64, AMD Ryzen, i5 11600K
+ Lei de Moore Cramming More Components ontoIntegrated Circuits
+Número de transistores dobrando a cada 2 anos
+Leitura complementar
+  nanometros bilionésimo de 1 metro
+Referência -&amp;gt; Folha de papel tem uma espessura de 100 nanômetros
+Décima primeira geração dos processadores intel -&amp;gt; 10nm
+ O que significa isso?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_cpu/home/caracteristicas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_cpu/home/caracteristicas/</guid>
+      <description>Características  Arquitetura (Cisc, RISC, 32 64bits&amp;hellip;)
+Litografia (tamanho em nm)
+Fabricante
+Socket (Soquete)
+Geração
+Número de núcleos
+Número de Threads por núcleo
+Potência (W)
+Clock (frequência de trabalho HZ)
+ Core Núcleo físico
+Abordagem multicore: Dual-core, Quad-core, Hexa-core, Octa-core, Deca-core
+Complexidade -&amp;gt; Camadas mais altas
+ Exemplo Threadripper: Processador da AMD com 32 núcleos
+Vários núcleos inativos em jogos
+ Mercado Mais fácil projetar/fabricar/vender processador com mais núcleos e frequência de trabalho menor do que menos núcleos com frequência de trabalho maior</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_cpu/home/socket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_cpu/home/socket/</guid>
+      <description> Socket O que é?
+ intel  amd Leitura complementar
+ Cuidados Processadores amd -&amp;gt; Mesmo soquete para várias gerações -&amp;gt; Quase sempre OK
+Processadores intel -&amp;gt; Mesmo soquete para várias gerações -&amp;gt; NOT OK (incompatibilidades dependendo da geração)
+Checar manual da placa-mãe
+ </description>
+    </item>
+    
+  </channel>
+</rss>
