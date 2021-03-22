@@ -18,7 +18,7 @@
       <guid>https://jp-guimaraes.github.io/slides_cpu/home/intro/</guid>
       <description> Objetivos Conhecer os diferentes tipos de processadores existentes no mercado
 Entender as diferenças de especificações entre processadores
- Sumário  Arquiteturas Características Benchmarks   </description>
+ Sumário  Arquiteturas Características Soquetes (Sockets) Benchmarks Refrigeração   </description>
     </item>
     
     <item>
@@ -73,6 +73,54 @@ Vários núcleos inativos em jogos
 Processadores intel -&amp;gt; Mesmo soquete para várias gerações -&amp;gt; NOT OK (incompatibilidades dependendo da geração)
 Checar manual da placa-mãe
  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_cpu/home/benchmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_cpu/home/benchmarks/</guid>
+      <description>Qual processador escolher?  Qual a Aplicação?
+Servidor?
+Jogos?
+Navegar na internet?
+ Escolha do poder de processamento
+Benchmark Desempenho multi-thread
+Desempenho single-thread
+Software de análise de desempenho
+ Qual o orçamento? Custo benefício (best value)
+índice = score_CPU / Valor
+Acesse
+ Objetivo Escolher um processador que não seja o gargalo do sistema computacional ao menor custo possível
+O gargalo sempre vai existir
+Podcast
+Vídeo recomendado
+ Benchmarks ótima forma de comparar elementos de hardware</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_cpu/home/refrigeracao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_cpu/home/refrigeracao/</guid>
+      <description>Refrigeração Objetivo: Resfriar o processador
+Mover o calor para longe da superfície do CHIP
+Thermal throttling
+ Sintomas Problemas de aquecimento:
+Calor elevado na máquina
+Máquina desligando sozinha
+Travamentos do sistema operacional
+Travamentos em uso intenso
+Thermal throttling
+ Como medir temperatura? Termômetro apropriado
+Software -&amp;gt; leitura dos sensores
+ Causas frequêntes Overcloking
+Não utilização da pasta térmica
+Fixação do cooler incorreta
+Software -&amp;gt; Sobrecarga do processador
+ Processador mal dimensionado  Sistema de refrigeração ineficiente</description>
     </item>
     
   </channel>
