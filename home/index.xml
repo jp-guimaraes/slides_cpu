@@ -29,13 +29,13 @@ Entender as diferenças de especificações entre processadores
       <guid>https://jp-guimaraes.github.io/slides_cpu/home/arquiteturas/</guid>
       <description>Arquiteturas RISC ARM - Apple M1, Exynos, Snapdragon
 CISC x86 Pentium II, Pentium III x64 Athlon 64, AMD Ryzen, i5 11600K
- Lei de Moore Cramming More Components ontoIntegrated Circuits
+ Lei de Moore Cramming More Components on to Integrated Circuits
 Número de transistores dobrando a cada 2 anos
 Leitura complementar
   nanometros bilionésimo de 1 metro
 Referência -&amp;gt; Folha de papel tem uma espessura de 100 nanômetros
-Décima primeira geração dos processadores intel -&amp;gt; 10nm
- O que significa isso?</description>
+AMD Ryzen 9 -&amp;gt; 7nm
+Apple M1 Ultra - Mac Studio: 5nm</description>
     </item>
     
     <item>
@@ -121,6 +121,21 @@ Não utilização da pasta térmica
 Fixação do cooler incorreta
 Software -&amp;gt; Sobrecarga do processador
  Processador mal dimensionado  Sistema de refrigeração ineficiente</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_cpu/home/tendencias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_cpu/home/tendencias/</guid>
+      <description>Tendências  Intel Até 2021
+Continua com dificuldade com relação a fabricação de chips menores do que 10nm
+Décima segunda geração: Mudança de paradigma na arquitetura x64 -&amp;gt; Introdução de dois tipos de núcleos (desempenho e eficiência)
+Chips de desempenho (P chips) com consumo energético altíssimo (Power Hungry) Thermal throttling
+ AMD Segue marketing de ter o melhor desempenho por Watt consumido
+Consequência dos chips com transistores menores
+ Apple Migrando toda a linha para M1 (faltando apenas MacPro)</description>
     </item>
     
   </channel>
