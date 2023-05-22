@@ -1,49 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/home/intro/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/home/arquiteturas/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/home/caracteristicas/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/home/socket/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/home/benchmarks/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/home/refrigeracao/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/home/tendencias/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/home/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_cpu/tags/</loc>
   </url>
-  
 </urlset>
